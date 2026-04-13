@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HN Summary Bot - Daily Hacker News digest delivered to Telegram. Free and Premium plans available.">
+    <meta name="keywords" content="Hacker News, HN, telegram bot, news digest, tech news">
+    <meta property="og:title" content="HN Summary Bot - Daily HN Digest">
+    <meta property="og:description" content="Get top Hacker News stories delivered daily to your Telegram. Free $0, Premium $5/mo.">
+    <meta property="og:type" content="website">
+    <title>HN Summary Bot - Daily HN Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🚀 HN Summary Bot</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#sample">Preview</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">✨ Now on Telegram</span>
+                <h1 class="hero-title">Your Daily<br><span class="text-gradient">Hacker News</span> Digest</h1>
+                <p class="hero-subtitle">Stop scrolling. Start reading what matters. Top 10 HN stories delivered to your Telegram every morning at 8am.</p>
+                <div class="hero-buttons">
+                    <a href="https://t.me/YOUR_BOT_USERNAME" class="btn btn-primary btn-lg" target="_blank">
+                        <span>🔮</span> Start Free on Telegram
+                    </a>
+                    <a href="#sample" class="btn btn-secondary btn-lg">See Sample Digest</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8am</span>
+                        <span class="stat-label">Daily Delivery</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Free to Start</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </header>
+
+    <section id="sample" class="sample">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Sample</span>
+                <h2>What You'll Receive</h2>
+                <p>A clean, curated digest every morning</p>
+            </div>
+            <div class="telegram-preview">
+                <div class="telegram-header">
+                    <div class="telegram-avatar">🤖</div>
+                    <div class="telegram-info">
+                        <div class="telegram-name">HN Summary Bot</div>
+                        <div class="telegram-status">bot</div>
+                    </div>
+                </div>
+                <div class="telegram-body">
+                    <div class="message-bubble">
+                        <div class="message-content">
+                            <p>🚀 <strong>HN Daily Summary</strong> - April 13, 2026</p>
+                            <div class="divider">━━━━━━━━━━━━━━━━</div>
+                            <p><strong>1.</strong> <a href="#">Taking on CUDA with ROCm: A Deep Dive</a><br>
+                            <span class="tag viral">🔥 Viral</span> | ⭐ 784 | 💬 156</p>
+                            
+                            <p><strong>2.</strong> <a href="#">Show HN: I built a file system in SQLite</a><br>
+                            <span class="tag trending">📈 Trending</span> | ⭐ 423 | 💬 89</p>
+                            
+                            <p><strong>3.</strong> <a href="#">The Death of the Full-Stack Developer</a><br>
+                            <span class="tag viral">🔥 Viral</span> | ⭐ 612 | 💬 234</p>
+                            
+                            <p><strong>4.</strong> <a href="#">Understanding Rust Lifetimes Once and For All</a><br>
+                            <span class="tag notable">💡 Notable</span> | ⭐ 198 | 💬 45</p>
+                            
+                            <p><strong>5.</strong> <a href="#">Google's new AI model is a game changer</a><br>
+                            <span class="tag trending">📈 Trending</span> | ⭐ 356 | 💬 112</p>
+                            
+                            <p class="more-stories">+ 5 more stories...</p>
+                            
+                            <div class="premium-banner">
+                                <p>💎 <strong>Premium Features:</strong></p>
+                                <ul>
+                                    <li>Real-time alerts</li>
+                                    <li>Keyword filters</li>
+                                    <li>AI deep analysis</li>
+                                </ul>
+                                <a href="#pricing" class="inline-cta">Upgrade to Premium →</a>
+                            </div>
+                        </div>
+                        <div class="message-time">8:00 AM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Features</span>
+                <h2>Why Developers Love It</h2>
+                <p>Designed for busy tech professionals who want to stay informed without the noise</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Perfect Timing</h3>
+                    <p>Delivered every morning at 8am sharp. Start your day informed without opening 47 tabs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Curated Quality</h3>
+                    <p>Top 10 stories only. No fluff. Just the highest-quality tech and startup discussions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Smart Alerts</h3>
+                    <p>Get notified instantly when stories match your keywords. Never miss what matters.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI Insights</h3>
+                    <p>Each story tagged as Viral, Trending, or Notable. Quick context at a glance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Native Telegram</h3>
+                    <p>No new apps to install. Works on mobile, desktop, and web seamlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>No Spam, Ever</h3>
+                    <p>One message per day. Unsubscribe anytime. Your time is valuable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Pricing</span>
+                <h2>Choose Your Plan</h2>
+                <p>Start free. Upgrade when you're ready.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card free">
+                    <div class="pricing-header">
+                        <span class="pricing-badge">Forever Free</span>
+                        <h3>Free</h3>
+                        <div class="pricing-price">
+                            <span class="price">$0</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Daily top 10 digest</li>
+                        <li><span class="check">✓</span> Morning 8am delivery</li>
+                        <li><span class="check">✓</span> One-click to read</li>
+                        <li><span class="check">✓</span> Community support</li>
+                    </ul>
+                    <a href="https://t.me/YOUR_BOT_USERNAME" class="btn btn-outline" target="_blank">Start Free</a>
+                </div>
+                <div class="pricing-card premium">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <span class="pricing-badge premium-badge">Premium</span>
+                        <h3>Pro</h3>
+                        <div class="pricing-price">
+                            <span class="price">$5</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Everything in Free</li>
+                        <li><span class="check">✓</span> <strong>Real-time alerts</strong> for keywords</li>
+                        <li><span class="check">✓</span> <strong>AI deep analysis</strong> for top stories</li>
+                        <li><span class="check">✓</span> Weekly "Best of" recap</li>
+                        <li><span class="check">✓</span> Priority support</li>
+                        <li><span class="check">✓</span> Custom delivery time</li>
+                    </ul>
+                    <a href="YOUR_PAYMENT_LINK_HERE" class="btn btn-primary" target="_blank">Upgrade Now</a>
+                    <p class="pricing-note">No commitments. Cancel anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Reviews</span>
+                <h2>What Users Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Was spending 30+ minutes scrolling HN daily. Now I get the best stories in 2 minutes. Game changer."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍💻</div>
+                        <div class="author-info">
+                            <div class="author-name">Senior Dev</div>
+                            <div class="author-title">Startup Founder</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The keyword alerts alone are worth $5. I get notified instantly when something related to my stack pops up."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍💻</div>
+                        <div class="author-info">
+                            <div class="author-name">Full Stack Engineer</div>
+                            <div class="author-title">Remote Worker</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Clean format, no bloat, just what I need. Premium AI analysis helps me decide which stories are worth deep reading."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🧑‍💻</div>
+                        <div class="author-info">
+                            <div class="author-name">Tech Lead</div>
+                            <div class="author-title">Fortune 500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">FAQ</span>
+                <h2>Common Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is it really free?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! The free tier includes daily top 10 digests forever. Premium is $5/month for additional features like real-time alerts and AI analysis.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do I receive the digest?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Through Telegram! Just start the bot and you'll receive your first digest the next morning at 8am. It works on mobile and desktop.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I choose my delivery time?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Free users get 8am delivery. Premium members can customize their delivery time to match their schedule.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What are keyword alerts?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Set keywords like "Rust", "React", or your company name. You'll get an instant notification whenever a story matching those keywords hits the front page.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How is the AI analysis different?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Free users get basic tags (Viral, Trending). Premium users receive AI-generated TL;DR summaries, key takeaways, and expert context for each major story.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Stop Scrolling?</h2>
+                <p>Join 500+ developers getting their daily HN fix without the distraction.</p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/YOUR_BOT_USERNAME" class="btn btn-primary btn-lg" target="_blank">
+                        <span>🚀</span> Start Free on Telegram
+                    </a>
+                    <p class="cta-note">No credit card required. Takes 30 seconds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">🚀 HN Summary Bot</span>
+                    <p>Stay informed, stay productive.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HN Summary Bot. Not affiliated with Hacker News or Y Combinator.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
